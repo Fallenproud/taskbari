@@ -31,4 +31,5 @@ chrome.runtime.onMessage.addListener((message, sender, sendResponse) => {
   }
 
   sendResponse({ ok: false, error: "unsupported_message_type" });
+  return;
 });

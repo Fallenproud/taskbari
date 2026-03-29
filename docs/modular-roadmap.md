@@ -1,4 +1,4 @@
-# Modular Repo Resortment Plan (Q1/Q2/Q3)
+# Modular Repo Restructuring Plan (Q1/Q2/Q3)
 
 This plan decomposes TaskBari into modular units that can be merged into an existing repository cleanly, with no runtime coupling surprises.
 
