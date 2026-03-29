@@ -1,0 +1,28 @@
+{
+  "manifest_version": 3,
+  "name": "TaskBari MCP Gateway",
+  "description": "Primary gateway extension for MCP skill routing and invocation.",
+  "version": "0.1.0",
+  "action": {
+    "default_title": "TaskBari MCP Gateway",
+    "default_popup": "popup.html"
+  },
+  "background": {
+    "service_worker": "service-worker.js",
+    "type": "module"
+  },
+  "permissions": [
+    "storage",
+    "activeTab"
+  ],
+  "host_permissions": [
+    "http://localhost/*",
+    "https://localhost/*"
+  ],
+  "icons": {
+    "16": "icons/icon16.png",
+    "32": "icons/icon32.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  }
+}
