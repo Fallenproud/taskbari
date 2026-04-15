@@ -153,6 +153,15 @@ This repo includes an `agent-instruct.txt` file that teaches AI coding agents (C
 
 The file contains configuration references, group rules, recommended category taxonomies for different project types, migration steps, and a full working example.
 
+## Modular Planning + Gateway Scaffold
+
+To support modular rollout and future migration into a larger repository, this repo now includes:
+
+- `docs/modular-roadmap.md` — Q1/Q2/Q3 phased plan, merge strategy, and MVP/PWA adaptation path
+- `chrome-extension-gateway/` — isolated Chrome Extension (MV3) scaffold designed as the MCP gateway entrypoint
+
+This scaffold is intentionally separate from the VS Code extension runtime so it can be moved into a monorepo (or merged into an existing repo) as a puzzle-piece module.
+
 ## Development
 
 ```bash
